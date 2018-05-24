@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+.left{
+    flex: 0 0 300px;
+    background-color: aqua;
+    height: 300px;
+}
+
+.right{
+    flex: 1 1 auto;
+    background-color: red;
+    height: 300px;
+}

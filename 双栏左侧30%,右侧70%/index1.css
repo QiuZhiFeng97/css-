@@ -1,0 +1,22 @@
+/* 
+    消除浏览器默认样式,chrome中 body默认margin:8px;
+*/
+body{
+    margin: 0;
+}
+
+.left{
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    background-color: aqua;
+}
+
+
+.right{
+    display: inline-block;
+    width: 70%;
+    height: 300px;
+    background-color: red;
+    margin-left: 0;
+}

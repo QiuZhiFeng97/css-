@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+.left{
+    flex: 1 1 30%;
+    background-color: aqua;
+    height: 300px;
+}
+
+.right{
+    flex: 3.5 3.5 70%;
+    background-color: red;
+    height: 300px;
+}

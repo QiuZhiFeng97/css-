@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    
+}
+
+.left{
+    background-color: aqua;
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+.right{
+    background-color: red;
+    height: 300px;
+    float: left;
+    width: 70%;
+}
+.right::after{
+    content: "";
+    clear: both;
+}

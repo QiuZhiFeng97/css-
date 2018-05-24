@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.left{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    height: 300px;
+    background-color: aqua;
+}
+
+/*
+    取消.left的margin-right后,在右侧设定margin-left会发生粘合现象
+    详情可参见 http: //www.zhangxinxu.com/wordpress/2015/02/css-deep-understand-flow-bfc-column-two-auto-layout/
+*/
+.right{
+    overflow: hidden;
+    height: 300px;
+    background-color: red;
+}

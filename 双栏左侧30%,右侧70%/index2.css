@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    position: relative;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+    width: 30%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.right{
+    position: absolute;
+    margin-left: 30%;
+    width: 70%;
+    height: 300px;
+    background-color: red;
+
+}
