@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    position: relative;
+    min-width: 700px;
+}
+.column{
+    position: absolute;
+    height: 300px;
+}
+.left{
+    left: 0;
+    width: 300px;
+    background-color: aqua;
+}
+
+.center{
+    margin-left: 300px;
+    margin-right: 300px;
+    width: calc(100% - 600px);
+    background-color: red;
+}
+.right{
+    right: 0;
+    width: 300px;
+    background-color: aquamarine;
+}
